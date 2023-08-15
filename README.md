@@ -8,17 +8,15 @@ Easy to understand and use
 An array with times in 1/10 seconds.
 Example:
 ```JavaScript
-let times = [
-	{
-		time: 10
-	},
-	{
-		time: 50
-	},
-	{
-		time: 47
-	}
-];
+let times = [{
+   time: 10
+},
+{
+   time: 50
+},
+{
+   time: 47
+}];
 ```
 
 ## How to use
@@ -31,3 +29,8 @@ calcAvg(averageOf, calculateOneAverage, index);
 'calculateOneAverage' is a boolean indicating whether to calculate just one average or irritate over the whole time array.
 
 'index' is the starting index for calculating a single average when 'calculateOneAverage' is true.
+
+## Usage
+```JavaScript
+console.log(calcAvg(5, true, 2);
+```
